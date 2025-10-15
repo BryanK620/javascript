@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 3em;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição</p>
+
+    <script>
+       var n1 = Number.parseInt(window.prompt ('Digite um número:')) // Sem o Number.parseInt o wind. prompt  string
+       var n2 = Number.parseInt(window.prompt ('Digite outro número:')) // Sem o Number.parseInt o wind. prompt é uma string
+       var s= n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // template string
+       // (number + number)para adição
+       //(string + string) para concatenação
+       // String para Número = Number.parseInt (número inteiro)
+       //String para Número = Number.parseFloat (Real e com vírgula. ex: 5.5)
+       //Pode abreviar apenas Number, mas não elimina as de cima
+        // Para converter string para número String(n) ou n.toString()
+        //s.legth quantos caracteres a string tem
+        //s.toUpperCase () tudo para 'MAIÚSCULAS'
+        //s.toLowerCase () tudo para 'minúsculas'
+        //n1.toFixed (2) para mostrar o número com duas casas decimais depois da vírgula. ex: 1545.50
+        //n1.toFixed (2).replace ('.' , '.')Troca o ponto pela vírgula
+        //n1.toLocaleString('pt-Br' , {style: 'currency' , currency: 'BRL'}) coloca a moeda corrente do país
+    </script>
+</body>
+</html>
