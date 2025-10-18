@@ -1,0 +1,108 @@
+Parte 1
+
+5+2 = 7
+5-2 = 3
+5*2 = 10
+5/2 = 2.5
+5%2 = 1 esse operador é o resto da conta de 5 dividido por 2
+5**2 = 25 é a potência 
+
+Precedência dos operadores (Ordem)
+() O que está nos parênteses
+** potência
+* multiplicação / divisão % resto da divisão ( quem aparece primeiro da esquerda para direita)
++ soma  -subtração  
+
+
+
+var n=3
+n = n + 4 = 7
+n = n - 5 = 2
+n = n * 4 = 8
+n = n /2 = 4
+n = n ** 2 = 16
+n = n % 5 = 1
+
+Simplificando
+
+n += 4 = 7
+n -= 5 = 2
+n *= 4 = 8
+n /= 2 = 4
+n **= 2 = 16
+n %= 5 = 1
+
+Incremento
+
+x = x +1
+x = x-1
+ou 
+x ++ ou ++ x
+x -- ou -- x
+
+Parte 2
+
+Relacionais
+< menor
+> maior
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+
+ex:
+5 > 2 -> true
+7 < 4 -> false
+8 >= 8 -> true
+9 <= 7 -> false
+5 == 5 -> true
+4 != 4 -> false 
+
+Operador de identidade
+
+5 == 5 -> true
+5 == '5' -> true, pois o JavaScript entende os dois sendo iguais, mesmo um sendo uma string, para diferenciar deve utilizar o operador de identidade
+
+5 === '5' -> false ( testando se ambos são identicos, do mesmo valor e tipo)
+
+
+Lógicos
+
+!! negação (não)
+&& conjunção (e)
+||  disjunção (ou) 
+
+
+depois de negação só é utilizado true ou false ou uma expressão que vai da true ou false
+! true ou false
+true -> false
+false -> true
+
+&&
+operador binário, com dois valores lógicos, um de cada lado
+true && false -> false
+true && true ->true
+false && true -> false
+false && false -> false
+
+||
+operador binário, com dois valores lógicos, um de cada lado
+true || true -> true
+true || false -> true
+false || true -> true
+false || false -> false
+
+Caso tenha mais de um operador na mesma expressão a ordem é: não, e por último ou
+
+Ternário
+? :
+junta 3 operandos
+
+ex:
+teste ? true : false
+
+ex:
+
+var média = 5.5
+
+média > 7? 'Aprovado' : 'Reprovado' (se lê: média é maior que 7? se for é aprovado, se não é reprovado)
